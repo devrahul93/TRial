@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TRial/static/css/main.249cf8b7.css",
+    "main.js": "/TRial/static/js/main.80059170.js",
+    "index.html": "/TRial/index.html",
+    "main.249cf8b7.css.map": "/TRial/static/css/main.249cf8b7.css.map",
+    "main.80059170.js.map": "/TRial/static/js/main.80059170.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249cf8b7.css",
+    "static/js/main.80059170.js"
+  ]
+}
