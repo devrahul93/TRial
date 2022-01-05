@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+.container {
+  width: 400px;
+}
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(222, 26%, 31%);
+}
+
+.wrapper1 {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 90%);
+}
+
+.wrapper2 {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(268, 75%, 9%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: rgb(248, 248, 248);
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: hsl(52, 100%, 62%);
+}
+
+.screen {
+  background: hsl(224, 36%, 15%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.buttons {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 12px;
+}
+
+.delete {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 3px hsl(224, 28%, 35%);
+  padding: 2px;
+}
+
+button {
+  color: hsl(221, 14%, 31%);
+  font-size: 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 3px hsl(28deg 16% 65%);
+  font-weight: bold;
+}
+
+.but {
+  cursor: pointer;
+  text-align: center;
+}
+
+.but-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.but-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  color: #fff;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0 3px hsl(6, 70%, 34%);
+}
+
+/* toggler button */
+.switch-toggle {
+  float: left;
+  background: #242729;
+}
+
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle input + label {
+  padding: 7px;
+  float: left;
+  color: #fff;
+  cursor: pointer;
+}
+/* .switch-toggle input:checked + label {
+  background: green;
+} */
+
+input:checked + .one {
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+input:checked + .two {
+  background-color: gold;
+  border-radius: 50%;
+}
+
+input:checked + .three {
+  background-color: violet;
+  border-radius: 50%;
+}
